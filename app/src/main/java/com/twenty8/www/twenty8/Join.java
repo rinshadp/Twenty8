@@ -1,6 +1,7 @@
 package com.twenty8.www.twenty8;
 
 import android.app.Activity;
+import android.net.nsd.NsdServiceInfo;
 import android.os.Bundle;
 
 /**
@@ -18,6 +19,8 @@ public class Join extends Activity{
         mhost.initializeResolveListener();
 
         mhost.discoverServices();
+
+        NsdServiceInfo = mhost.getChosenServiceInfo();
 
 
 
