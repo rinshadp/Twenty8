@@ -21,11 +21,7 @@ public class Join extends Activity{
         mhost.discoverServices();
 
         NsdServiceInfo = mhost.getChosenServiceInfo();
-        asd
-                sad
-
-
-       javed sadsa
+        
 
     }
 }
