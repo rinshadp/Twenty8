@@ -4,6 +4,8 @@ import android.app.Activity;
 import android.net.nsd.NsdServiceInfo;
 import android.os.Bundle;
 
+import java.net.InetAddress;
+
 /**
  * Created by RINSHAD on 26/06/2016.
  */
@@ -20,9 +22,12 @@ public class Join extends Activity{
 
         mhost.discoverServices();
 
-        NsdServiceInfo = mhost.getChosenServiceInfo();
+        NsdServiceInfo service = mhost.getChosenServiceInfo();
+        InetAddress ip = service.getHost();
+        int port = service.getPort();
 
-        
+
+
 
     }
 }
