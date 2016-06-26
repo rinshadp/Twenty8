@@ -23,7 +23,7 @@ public class Join extends Activity{
         NsdServiceInfo = mhost.getChosenServiceInfo();
 
 
-
+       javed sadsa
 
     }
 }
