@@ -1,5 +1,4 @@
-package com.example.rinshad.twenty8;
-
+package com.twenty8.www.twenty8;
 import android.content.Context;
 import android.net.nsd.NsdManager;
 import android.net.nsd.NsdServiceInfo;

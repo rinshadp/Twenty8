@@ -1,4 +1,4 @@
-package com.example.rinshad.twenty8;
+package com.twenty8.www.twenty8;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -16,6 +16,10 @@ public class Join extends Activity{
         Mconnect mhost = new Mconnect(this);
         mhost.initializeDiscoveryListener();
         mhost.initializeResolveListener();
+
+        mhost.discoverServices();
+
+
 
 
     }
